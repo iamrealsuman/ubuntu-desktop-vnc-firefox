@@ -36,4 +36,5 @@ ADD passwd /root/.vnc/passwd
 RUN chmod 700 /root/.vnc/xstartup
 RUN chmod 700 /root/.vnc/passwd
 
+CMD /usr/bin/update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/xfce4-terminal 50
 CMD /usr/bin/vncserver :1 -geometry 1280x800 -depth 24 && /bin/bash
