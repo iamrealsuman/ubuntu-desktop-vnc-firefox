@@ -5,7 +5,7 @@
 
 ### Run the Container
 
-    docker run -itd --name ubuntu-desktop-vnc-firefox -p 5901:5901 ubuntu-desktop-vnc-firefox:latest
+    docker run -itd --name ubuntu-desktop-vnc-firefox -p 5901:5901 iamrealsuman/ubuntu-desktop-vnc-firefox:latest
 
 ### Now Access your Guest Desktop via VNC
 
